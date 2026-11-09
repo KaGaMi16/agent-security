@@ -4,6 +4,8 @@
 
 [中文说明](README.zh-CN.md) · MIT License · Python 3.10+
 
+[![tests](https://github.com/KaGaMi16/agent-security/actions/workflows/tests.yml/badge.svg)](https://github.com/KaGaMi16/agent-security/actions/workflows/tests.yml)
+
 > ## ⚠️ Do not blindly trust this skill
 >
 > This is an early-stage, single-author skill. It has been tested with unit tests, a synthetic malicious-repo fixture, and **one** real macOS machine — nothing more. It has **no measured false-positive/false-negative rate**, has not been adversarially tested, and has not been validated by anyone else.

@@ -4,6 +4,8 @@
 
 [English](README.md) · MIT License · Python 3.10+
 
+[![tests](https://github.com/KaGaMi16/agent-security/actions/workflows/tests.yml/badge.svg)](https://github.com/KaGaMi16/agent-security/actions/workflows/tests.yml)
+
 > ## ⚠️ 不要盲目偏信这个技能
 >
 > 这是一个人维护的早期技能，只经过单元测试、一个合成恶意仓库夹具和**一台**真实 macOS 机器的验证，没有更大范围的检验。它**没有测过误报率/漏报率**，也没有经过对抗性测试或第三方复核。
