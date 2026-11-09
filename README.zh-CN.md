@@ -123,6 +123,7 @@ python3 "$SKILL/scripts/verify_external_skills.py" --format text
 
 没有做过的：
 
+* 还没有 CI 流水线，21 个测试目前手动运行。
 * 没有大规模或对抗性评测，没有误报率/漏报率数据。
 * 没有其他用户复核；没有在 Linux/Windows 上验证（Linux 路径只按规则实现）。
 * 没有针对新型规避、二进制后门、签名但恶意的包或社工诱导的测试。
@@ -137,7 +138,7 @@ python3 "$SKILL/scripts/verify_external_skills.py" --format text
 
 ## 要求
 
-* Python **3.10+**，只用标准库，无需 `pip install`。
+* Python **3.10+**，只用标准库，无需 `pip install`。开发与实测环境为 Python 3.13，3.10–3.12 尚未实测。
 * 以 macOS 路径为主要目标；包含 Linux 持久化检查但未验证；不支持 Windows。
 * 对被扫描路径有读权限即可，不需要提权。
 

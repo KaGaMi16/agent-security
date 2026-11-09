@@ -160,6 +160,7 @@ What has actually been done:
 
 What has **not** been done:
 
+* No CI pipeline yet; the 21 tests are run manually.
 * No large-scale or adversarial evaluation; no measured false-positive/false-negative rate.
 * No validation by other users; no test on Linux or Windows (Linux paths are implemented heuristically, not verified).
 * No test against novel evasion, binary backdoors, signed-but-malicious packages, or social engineering.
@@ -174,7 +175,7 @@ Honest consequence: **this skill can be wrong in both directions.** Verify every
 
 ## Requirements
 
-* Python **3.10+** (stdlib only; no `pip install` needed).
+* Python **3.10+** (stdlib only; no `pip install` needed). Developed and tested on Python 3.13; 3.10–3.12 are not yet tested.
 * macOS paths are the primary target. Linux persistence checks are included but not validated. Windows is not supported.
 * Read access to the paths being scanned. No elevated privileges required.
 
